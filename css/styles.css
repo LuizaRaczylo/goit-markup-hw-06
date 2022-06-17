@@ -449,6 +449,7 @@ ul {
     border: none;
     border-radius: 4px;
     background: var(--brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
 .newsletter-icon {
@@ -461,6 +462,18 @@ ul {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     background: var(--body-color);
+    margin-right: 12px;
+    box-sizing: border-box;
+}
+.newsletter {
+    width: 570px;
+    height: 86px;
+    margin-left: 78px;
+    display: block;
+}
+.newsletter-form {
+    display: flex;
+    margin-top: 20px;
 }
 
 /* portfolio - przyciski z filtrami*/
