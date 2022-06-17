@@ -638,3 +638,27 @@ ul {
     visibility: hidden;
     pointer-events: none;
 }
+.order-form_title {
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+.order_column {
+    position: relative;
+}
+.name_icon_person {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 104px;
+    left: 52px;
+}
+.order_area {
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
