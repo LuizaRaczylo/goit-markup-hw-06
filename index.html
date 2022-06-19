@@ -449,7 +449,7 @@
         <form class="order-form" name="order-form" autocomplete="off" novalidate>
           <div class="form_part">
             <label class="order_column" for="user-name">Imię
-            <input class="order_area" type="text" id="user-name" required />
+            <input class="order_area" type="text" id="user-name" name="user_name" required />
             </label>
             <svg class="input_icon">
               <use href="./images/icons.svg#icon-person"></use>
@@ -457,7 +457,7 @@
           </div>
           <div class="form_part">
             <label class="order_column" for="telephone-number">Telefon
-            <input class="order_area" type="text" id="telephone-number" required />
+            <input class="order_area" type="text" id="telephone-number" name="telephone_number" required />
             </label>
             <svg class="input_icon">
               <use href="./images/icons.svg#icon-tel-black"></use>
@@ -465,7 +465,7 @@
           </div>
           <div class="form_part">
             <label class="order_column" for="email">Email
-            <input class="order_area" type="text" id="email" required />
+            <input class="order_area" type="text" id="email" name="email" required />
             </label>
             <svg class="input_icon">
               <use href="./images/icons.svg#icon-mail-black"></use>
@@ -473,7 +473,7 @@
           </div>
           <div class="form_part_comment">
             <label class="order_column" for="comment">Komentarz</label>
-            <textarea class="order_text" id="comment" placeholder="Wprowadź tekst"></textarea>
+            <textarea class="order_text" id="comment" name="order" placeholder="Wprowadź tekst"></textarea>
           </div>
           <div class="form_part_checkbox">
             <input class="checkbox_input visually-hidden" type="checkbox" name="modal-form-policy" id="user-policy" required/>

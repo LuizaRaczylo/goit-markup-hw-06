@@ -436,6 +436,8 @@ ul {
     font-size: 14px;
     color: var(--bright-color);
     font-weight: 700;
+    line-height: 1.14;
+    margin-bottom: 20px;
 }
 .newsletter-btn {
     width: 200px;
@@ -443,9 +445,11 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     color: var(--bright-color);
+    font-size: 16px;
+    line-height: 1.87;
     border: none;
     border-radius: 4px;
     background: var(--brand-color);
@@ -455,6 +459,7 @@ ul {
 .newsletter-icon {
     width: 24px;
     height: 24px;
+    margin-left: 24px;
 }
 .newsletter-box {
     width: 358px;
@@ -463,8 +468,8 @@ ul {
     border-radius: 4px;
     background: var(--body-color);
     margin-right: 12px;
-    box-sizing: border-box;
     padding-left: 15px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .newsletter-box::placeholder {
     font-size: 16px;
@@ -481,7 +486,7 @@ ul {
     width: 570px;
     height: 86px;
     margin-left: 78px;
-    display: block;
+    padding-top: 12px;
 }
 .newsletter-form {
     display: flex;
@@ -678,6 +683,7 @@ ul {
     border-radius: 4px;
     margin-top: 4px;
     padding-left: 42px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form_part {
     width: 448px;
@@ -686,6 +692,7 @@ ul {
     margin-right: 40px;
     margin-bottom: 10px;
     position: relative;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form_part:focus-within,
 .form_part:hover {
@@ -712,12 +719,14 @@ ul {
     border-radius: 4px;
     margin-top: 4px;
     padding: 12px 16px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 textarea::placeholder {
     font-family: Roboto;
     font-size: 12px;
     line-height: 1.17;
     color: var(--detail-color);
+    opacity: 0.5;
     position: absolute;
     top: 12px;
     left: 16px;
@@ -759,12 +768,16 @@ textarea {
     height: 15px;
     outline: 1px solid #212121;
     margin-right: 8px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox_input:checked + .policy-accept::before {
     background-color: var(--brand-color);
     outline: none;
+    border: 1px solid var(--brand-color);
     border-radius: 2px;
-    background-image: url(./images/icons.svg#icon-checkbox);
+    background-image: url(../images/checkbox.png);
+    background-position: 50% 50%;
+    background-size: cover;
 }
 .visually-hidden {
     position: absolute !important;
@@ -775,4 +788,19 @@ textarea {
     height: 1px !important;
     width: 1px !important;
     overflow: hidden;
+}
+.submit_btn {
+    width: 200px;
+    height: 50px;
+    background-color: var(--brand-color);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    color: var(--bright-color);
+    font-size: 16px;
+    line-height: 1.87;
+    margin-left: 164px;
+    margin-right: 164px;
+    cursor: pointer;
 }
