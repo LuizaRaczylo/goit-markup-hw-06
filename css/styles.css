@@ -74,7 +74,9 @@ ul {
 .contact-item1:hover svg,
 .contact-item1:focus svg,
 .contact-item2:hover svg,
-.contact-item2:focus svg {
+.contact-item2:focus svg,
+.contact-item1:visited svg,
+.contact-item2:visited svg {
     fill: var(--brand-color);
 }
 .logotype, .footer-link {
@@ -112,6 +114,7 @@ ul {
 .navigation-item {
     margin-right: 46px;
 }
+.navigation-item,
 .navigation-item .link:visited {
     color:#212121;
 }
