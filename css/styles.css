@@ -112,7 +112,7 @@ ul {
 .navigation-item {
     margin-right: 46px;
 }
-.navigation-items .link:visited {
+.navigation-item .link:visited {
     color:#212121;
 }
 .activepage::after {
