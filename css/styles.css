@@ -113,8 +113,8 @@ ul {
 }
 .navigation-item {
     margin-right: 46px;
+    color: #212121;
 }
-.navigation-item,
 .navigation-item .link:visited {
     color:#212121;
 }
