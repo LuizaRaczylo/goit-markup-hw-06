@@ -446,42 +446,31 @@
           </svg>
         </button>
         <h3 class="order-form_title">Zostaw swoje dane w formularzu poniżej</h3>
-        <form class="order-form" name="order-form" autocomplete="off" novalidate>
-          <div class="form_part">
-            <label class="order_column" for="user-name">Imię
+        <form class="order-form" name="order-form" autocomplete="off">
+            <label class="form_part order_column" for="user-name">Imię
             <input class="order_area" type="text" id="user-name" name="user_name" required />
-            </label>
             <svg class="input_icon">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
-          </div>
-          <div class="form_part">
-            <label class="order_column" for="telephone-number">Telefon
-            <input class="order_area" type="text" id="telephone-number" name="telephone_number" required />
             </label>
+            <label class="form_part order_column" for="telephone-number">Telefon
+            <input class="order_area" type="text" id="telephone-number" name="telephone_number" required />
             <svg class="input_icon">
               <use href="./images/icons.svg#icon-tel-black"></use>
             </svg>
-          </div>
-          <div class="form_part">
-            <label class="order_column" for="email">Email
-            <input class="order_area" type="text" id="email" name="email" required />
             </label>
+            <label class="form_part order_column" for="email">Email
+            <input class="order_area" type="text" id="email" name="email" required />
             <svg class="input_icon">
               <use href="./images/icons.svg#icon-mail-black"></use>
             </svg>
-          </div>
-          <div class="form_part_comment">
-            <label class="order_column" for="comment">Komentarz</label>
+            </label>
+            <label class="form_part_comment order_column" for="comment">Komentarz
             <textarea class="order_text" id="comment" name="order" placeholder="Wprowadź tekst"></textarea>
-          </div>
-          <div class="form_part_checkbox">
+              </label>
             <input class="checkbox_input visually-hidden" type="checkbox" name="modal-form-policy" id="user-policy" required/>
-            <label class="policy-accept" for="user-policy"> Oświadczam iż akceptuję <a class="checkbox_link" href="">Regulamin</a> i <a class="checkbox_link" href="">Politykę Prywatności</a>.</label>
-          </div>
-          <div class="form_part_btn">
+            <label class="policy-accept form_part_checkbox" for="user-policy"> Oświadczam iż akceptuję <a class="checkbox_link" href="">Regulamin</a> i <a class="checkbox_link" href="">Politykę Prywatności</a>.</label>
             <button class="submit_btn" type="submit">Wyślij</button>
-          </div>
         </form>
       </div>
     </div>
